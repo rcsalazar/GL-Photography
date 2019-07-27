@@ -1,0 +1,41 @@
+:root{
+    --light-bg: #a5b1c2;
+    --dark-text: #333333;
+    --dark-bg: #4b6584;
+    --light-text: #dddddd;
+}
+
+li{
+    list-style: none;
+}
+
+.head{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.offer-light{
+    background: var(--light-bg);
+    margin: 20px;
+    color: var(--dark-text);
+}
+
+.offer-dark{
+    background: var(--dark-bg);
+    margin: 20px;
+    color: var(--light-text);
+}
+
+.package-image{
+    height: 90%;
+    margin: auto;
+}
+
+.package-image img{
+    width: 90%;
+    border: 3px solid #ffffff;
+}
+
+.terms{
+    background: #bbbbbb;
+}

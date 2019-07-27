@@ -1,0 +1,55 @@
+:root{
+    --light: #f1f2f6;
+    --dark: #2d3436;
+}
+
+body{
+    margin: 0 10px;
+    padding: 0;
+    background: #2d3436;
+    color: var(--light);
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--light);
+}
+
+.header{
+    border-bottom: 1px solid var(--light);
+    background: #273c75;
+}
+
+.brand{
+    padding: 10px 20px;
+}
+
+#brand-logo{
+    width: 40px;
+    border: 2px solid var(--light);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.nav-links{
+    margin: 20px auto;
+}
+
+.nav-links a{
+    margin: 5px;
+    padding: 5px 20px;
+    border: 2px solid var(--light);
+}
+
+.active, .nav-links a:hover{
+    background: var(--light);
+    color: var(--dark);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    transition: 0.5s;
+}

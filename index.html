@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/flexboxgrid.css">
-    <link rel="stylesheet" href="./css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel=" stylesheet" href="./css/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/common.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9a61ad67a8.js"></script>
     <title>GL Photography | Home</title>
 </head>
-<body>
-    <div class="header row center-xs middle-xs middle-sm middle-md middle-lg">
-        <div class="brand col-xs-12 col-sm-4 col-md-5 col-lg-4 start-sm start-md start-lg">
-            <a href="#"><img id="brand-logo" src="./images/brand.jpg" alt="">Gleanson Linao Photography</a>
-        </div>
-        <div class="nav-links col-xs-12 col-sm-8 col-md-7 col-lg-8 end-sm end-md end-lg">
-            <a class="active" href="#">ABOUT</a>
-            <a href="packages.html">PACKAGES</a>
-            <a href="#">CONTACT</a>
-        </div>
-    </div>
 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img id="brand-logo" src="./images/brand.jpg" alt="">Gleanson Linao
+            Photography</a>
+        <!-- hamburger start -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- hamburger end -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="packages.html">PACKAGES</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
